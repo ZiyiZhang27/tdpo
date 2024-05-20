@@ -106,8 +106,7 @@ def ddim_step_with_logprob(
             -self.config.clip_sample_range, self.config.clip_sample_range
         )
 
-    # 5. compute variance: "sigma_t(η)" -> see formula (16)
-    # σ_t = sqrt((1 − α_t−1)/(1 − α_t)) * sqrt(1 − α_t/α_t−1)
+    # 5. compute variance: "sigma_t(η)" -> σ_t = sqrt((1 − α_t−1)/(1 − α_t)) * sqrt(1 − α_t/α_t−1)
     variance = _get_variance(self, timestep, prev_timestep)
     std_dev_t = eta * variance ** (0.5)
     std_dev_t = _left_broadcast(std_dev_t, sample.shape).to(sample.device)
