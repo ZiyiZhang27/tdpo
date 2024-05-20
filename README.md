@@ -39,7 +39,7 @@ For detailed explanations of all hyperparameters, please refer to the configurat
 
 ## Citation
 
-If you find this work useful in your research, please consider cite:
+If you find this work useful in your research, please consider citing:
 
 ```bibtex
 @inproceedings{zhang2024confronting,
