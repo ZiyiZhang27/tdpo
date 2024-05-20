@@ -59,8 +59,8 @@ def ddim_step_with_logprob(
         generator: random number generator.
         prev_sample (`torch.FloatTensor`): instead of generating noise for the variance using `generator`, we
             can directly provide the noise for the variance itself.
-
     """
+
     assert isinstance(self, DDIMScheduler)
     if self.num_inference_steps is None:
         raise ValueError(
