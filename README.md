@@ -1,6 +1,6 @@
 # Temporal Diffusion Policy Optimization (TDPO)
 
-This is an official PyTorch implementation of **Temporal Diffusion Policy Optimization (TDPO)** from our paper [*Confronting Reward Overoptimization for Diffusion Models: A Perspective of Inductive and Primacy Biases*](https://arxiv.org/abs/2402.08552), which is accepted by **ICML 2024**.
+This is an official PyTorch implementation of **Temporal Diffusion Policy Optimization (TDPO)** from our paper [*Confronting Reward Overoptimization for Diffusion Models: A Perspective of Inductive and Primacy Biases*](https://openreview.net/pdf?id=v2o9rRJcEv), which is accepted by **ICML 2024**.
 
 ## Installation
 Python 3.10 or a newer version is required. In order to install the requirements, create a conda environment and run the `setup.py` file in this repository, e.g. run the following commands:
